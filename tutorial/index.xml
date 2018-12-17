@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on IOFiber</title>
+    <link>https://vinipsmaker.github.io/iofiber/tutorial/</link>
+    <description>Recent content in Tutorials on IOFiber</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://vinipsmaker.github.io/iofiber/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IOFiber</title>
+      <link>https://vinipsmaker.github.io/iofiber/tutorial/iofiber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vinipsmaker.github.io/iofiber/tutorial/iofiber/</guid>
+      <description>Fibers are lightweight threads managed in user-space. Fibers from this library are:
+   Stackful.
+  Cooperative.
+  Use Boost.Asio execution contexts (e.g. boost::asio::io_context) as schedulers. Any async function will work as a suspension point.
+  Non-symmetric. Main fiber and secondary fibers are exposed to different APIs. There is a clear separation between fibers that run inside and outside ASIO&amp;#8217;s execution contexts.
+   trial::iofiber::fiber is an alias for trial::iofiber::basic_fiber&amp;lt;boost::asio::io_context::strand&amp;gt;.</description>
+    </item>
+    
+  </channel>
+</rss>
